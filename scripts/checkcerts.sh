@@ -8,7 +8,7 @@
 # websites should be running SSL on port 443 - other ports are not supported yet
 # websites entries should only contain the hostname - no https:// or anything prefacing it
 
-# the list of websites passed should be in the following format
+# The list of sites to be checked should be passed in a file with the following format
 #
 # ------------------------------------------
 # |                                        |
@@ -31,7 +31,7 @@ year_sec=$((week_sec*52))
 
 
 # set the TO email field here - separate multiples with a space
-to_email="itadministration-linux@mbsbooks.com"
+to_email="<insert email here>"
 
 #set the threshold here - the threshold is in seconds, and the variables above can be used as shown in the current value (4 weeks) for simplification
 

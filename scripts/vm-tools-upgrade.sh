@@ -4,6 +4,9 @@
 #
 # Matthew Little - 2012
 #
+# This script takes care of extracting and installing vmware tools from the CD ISO image
+# Mount the image on the guest and run the script from inside the guest OS.
+# 
 
 echo -en "Checking for installation requirements\t"
 
